@@ -391,6 +391,7 @@ rm %{buildroot}/%{_libdir}/*.la %{buildroot}/%{_libdir}/libhybris/*.la
 %files devel
 %defattr(-,root,root,-)
 %{_includedir}/hybris/input/*.h
+%{_includedir}/hybris/dlfcn/dlfcn.h
 %{_includedir}/hybris/properties/properties.h
 %{_libdir}/libhybris-common.so
 %{_libdir}/libandroid-properties.so
